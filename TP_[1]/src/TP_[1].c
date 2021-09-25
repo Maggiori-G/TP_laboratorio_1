@@ -91,7 +91,7 @@ int main(void)
 			case 3:
 				if(banderaPrimerOperando==0||banderaSegundoOperando==0)
 				{
-					printf("No se puede realizar las operaciones si aún no se ingresaron los operandos.\n");
+					printf("No se puede realizar las operaciones si aun no se ingresaron los operandos.\n");
 				}
 				else
 				{
@@ -114,14 +114,14 @@ int main(void)
 					printf("================================================================\n");
 					printf("El resultado de la suma entre %.2lf y %.2lf es: %.2lf\n\n",primerOperando,segundoOperando,suma);
 					printf("El resultado de la resta entre %.2lf y %.2lf es: %.2lf\n\n",primerOperando,segundoOperando,resta);
-					printf("El resultado de la multiplicación entre %.2lf y %.2lf es: %.2lf\n\n",primerOperando,segundoOperando,multiplicacion);
+					printf("El resultado de la multiplicacion entre %.2lf y %.2lf es: %.2lf\n\n",primerOperando,segundoOperando,multiplicacion);
 					if(segundoOperando==0)
 					{
 						printf("No se puede dividir entre 0\n\n");
 					}
 					else
 					{
-						printf("El resultado de la división entre %.2lf y %.2lf es: %.2lf\n\n",primerOperando,segundoOperando,division);
+						printf("El resultado de la division entre %.2lf y %.2lf es: %.2lf\n\n",primerOperando,segundoOperando,division);
 					}
 					if(banderaPrimerFactorial==1)
 					{
@@ -144,8 +144,8 @@ int main(void)
 				break;
 		}
 
-		opcion=PedirOpcionValidada("Que acción desea realizar? ");
+		opcion=PedirOpcionValidada("Que accion desea realizar? ");
 	}while(opcion!=5);
-	printf("Gracias por utilizar la calculadora que sólo realiza 5 operaciones!! Si le resultó util, deje una buena reseña!");
+	printf("Gracias por utilizar la calculadora que solo realiza 5 operaciones!! Si le resulto util, deje una buena reseña!");
 	return 0;
 }
