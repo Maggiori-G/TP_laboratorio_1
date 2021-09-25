@@ -57,7 +57,7 @@ int main(void)
 		if(banderaPrimerOperando==0)
 		{
 			printf("================================================================\n");
-			printf("Opcion 1: Ingrese el primer operando: A= Aun no se ingreso. \n");
+			printf("Opcion 1: Ingrese el primer operando: A= No ingresado. \n");
 		}
 		else
 		{
@@ -65,7 +65,7 @@ int main(void)
 		}
 		if(banderaSegundoOperando==0)
 		{
-			printf("Opcion 2: Ingrese el segundo operando: B= Aun no se ingreso. \n");
+			printf("Opcion 2: Ingrese el segundo operando: B= No ingresado. \n");
 		}
 		else
 		{
