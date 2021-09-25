@@ -49,23 +49,23 @@ int main(void)
 	double factorialSegundoOperando;
 	int banderaPrimerFactorial=0;
 	int banderaSegundoFactorial=0;
-	printf("\t\t\t\t\t\t===========================================================\n");
-	printf("\t\t\t\t\t\t***Bienvenidos a la Calculadora que solo hace 5 cosas!!!***\n");
-	printf("\t\t\t\t\t\t===========================================================\n");
+	printf("\t\t\t\t===========================================================\n");
+	printf("\t\t\t\t***Bienvenidos a la Calculadora que solo hace 5 cosas!!!***\n");
+	printf("\t\t\t\t===========================================================\n");
 	do
 	{
 		if(banderaPrimerOperando==0)
 		{
 			printf("================================================================\n");
-			printf("Opción 1: Ingrese el primer operando: A= Aún no se ingreso.\n");
+			printf("Opcion 1: Ingrese el primer operando: A= Aún no se ingreso. \n");
 		}
 		else
 		{
-			printf("Opción 1: Ingrese el primer operando: A= %.2f .\n",primerOperando);
+			printf("Opcion 1: Ingrese el primer operando: A= %.2f \n",primerOperando);
 		}
 		if(banderaSegundoOperando==0)
 		{
-			printf("Opción 2:Ingrese el segundo operando: B= Aún no se ingreso.\n");
+			printf("Opcion 2: Ingrese el segundo operando: B= Aún no se ingreso. \n");
 		}
 		else
 		{
